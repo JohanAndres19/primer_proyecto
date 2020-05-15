@@ -2,28 +2,35 @@ import numpy as np
 import random
 
 class Grupo_musical():
-     
-     def Armar_Grupo(self):
-        num_musicos = random.randint(5,10)
-        tipo_instru = random.randint(0,4)
-        #ins = Instrumento()
-        # Instrumentos= np.array(["bateria","guitarra","piano","saxofon","violin"])
-        print(num_musicos,tipo_instru)
+     def __init__(self):
+         self.Orgarnizar_Grupo()
 
+     def Orgarnizar_Grupo(self):
+        num_musicos = random.randint(5,10)
+        musicos_ins = []
+        Instrumentos= np.array(["bateria","guitarra","piano","saxofon","violin"])
+        for i in range (1,num_musicos):
+            tipo_instru = random.randint(0,4)
+            instru = Instrumentos[tipo_instru]  
+            musicos_ins.append(instru)  
+         
+            
 class Instrumento():
     def tocar(self):
         pass
     def PrepararInstrumento(self):
         pass
-    def Obtener_instrumento(self):
-        pass
-
+    
 class bateria(Instrumento):
-     def PrepararInstrumento(self):
+    def tocar(self):
+        print(" preparando bateria ")
+
+    def PrepararInstrumento(self):
         print(" preparando bateria ")
 
 class piano(Instrumento):
-     def PrepararInstrumento(self):
+    
+    def PrepararInstrumento(self):
         print(" preparando piano ")
 
 class saxofon(Instrumento):

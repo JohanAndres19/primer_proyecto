@@ -1,9 +1,15 @@
-from proyecto2 import Grupo_musical
+from proyecto2 import Grupo_musical    
+class Serenata ():   
+      def __init__(self):
+         self.Armar_Grupo()
 
-if __name__ == "__main__":
-    grupo = Grupo_musical()
-    grupo.Armar_Grupo()
+      def Armar_Grupo (self):
+           self.grupo = Grupo_musical()
+      
+      def Dar_serenata(self):
+          pass
 
-    
-       
+
+
+
      
