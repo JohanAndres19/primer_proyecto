@@ -1,0 +1,42 @@
+.body{
+    background-color: teal;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10%;
+}
+.image img{
+    width: 183px;
+    height: 190px;
+    margin-top: 50px;
+    border-style: solid;
+}
+h5{
+    position: relative;
+    transform: translateY(.220%);
+    transform: translateX(-125%);
+    overflow: hidden;
+    font-family: fantasy;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    transform: translateY(-85%);
+    margin-top: 50px;
+}
+.button input{
+    flex-wrap: wrap;
+    font-family: fantasy;
+    margin-left: -60px;
+    margin-right: 80px;
+    transform: translateX(70px);
+    width: 100px;
+    height: 50px;
+    background-color: cyan;
+    border-radius: 35px;
+}
