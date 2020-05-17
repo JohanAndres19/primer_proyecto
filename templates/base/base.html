@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+       <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/base.css')}}">
+    </head>
+
+    <body class="body">
+        <header>       
+            
+        </header>
+        <main>
+            <div class="image">
+               {% block container%}
+               {% endblock %}               
+                               
+            </div>    
+            <form method="POST">
+                <div class="button">
+                    <input type ="submit" name="Generar grupo" value="Generar grupo">
+                    <input type ="submit" name="Preparar" value="Preparar">
+                    <input type ="submit" name="tocar" value="tocar">
+                </div>
+            </form>            
+        </main>
+
+    </body>
+</hmtl>

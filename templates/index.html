@@ -1,31 +1,8 @@
-<!DOCTYPE html>
-    <head>
-      <link rel="stylesheet" href="C:\Users\LENOVO\Documents\modelos 1\proyecto banda\static\base.css">
-    </head>
-
-    <body class="body">
-        <header>
-            
-
-
-        </header>
-        <main>
-            <div class="image">
-                              
-                               
-            </div>            
-            <div class="button">
-                <input type ="button" value="Generar grupo">
-                <input type ="button" value="Preparar">
-                <input type ="button" value="tocar">
-            </div>
-                         
-        </main>
-
-    </body>
-
-
-
-
-
-</hmtl>
+{% extends 'base/base.html'%}
+{% block container%}
+    {% if a!=0 %}
+         {% for i in image %}
+            <img src="{{i}}">
+         {% endfor %}   
+    {% endif %}
+{%endblock%}
