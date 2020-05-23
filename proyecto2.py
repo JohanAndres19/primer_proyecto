@@ -10,7 +10,6 @@ class Grupo_musical():
             tipo_instru = random.randint(0,4)
             instru = Instrumentos[tipo_instru]  
             self.musicos_ins.append(instru) 
-            print("si entra")
 
     def Get_musicos(self):
         return self.musicos_ins
@@ -65,7 +64,7 @@ class guitarra(Instrumento):
 
 class violin(Instrumento):
     def Dibujar_indtru(self):
-        return"static/img/Violin.jpg/"
+        return"static/img/Violin.jpg"
     def tocar(self):
         return"tocando violin"
 

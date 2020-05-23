@@ -1,8 +1,14 @@
 {% extends 'base/base.html'%}
 {% block container%}
-    {% if a!=0 %}
+    {% if largoi !=0 and largoa==0  %}
          {% for i in image %}
             <img src="{{i}}">
          {% endfor %}   
+    {% endif %}
+    {% if largoi!=0 and largoa!=0  %}
+        {% for i ,j in data %}
+             <img src="{{i}}">  
+             <h5>{{j}}</h5>
+        {% endfor %}   
     {% endif %}
 {%endblock%}
