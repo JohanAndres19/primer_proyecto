@@ -2,13 +2,17 @@
 {% block container%}
     {% if largoi !=0 and largoa==0  %}
          {% for i in image %}
+         <article>
             <img src="{{i}}">
+         </article>
          {% endfor %}   
     {% endif %}
     {% if largoi!=0 and largoa!=0  %}
         {% for i ,j in data %}
-             <img src="{{i}}">  
-             <h5>{{j}}</h5>
+             <article>
+                <h5>{{j}}</h5>
+                <img src="{{i}}">  
+             </article>
         {% endfor %}   
     {% endif %}
 {%endblock%}

@@ -12,7 +12,13 @@ class Grupo_musical():
             self.musicos_ins.append(instru) 
 
     def Get_musicos(self):
-        return self.musicos_ins
+        if len(self.musicos_ins)==0:
+            self.Orgarnizar_Grupo()
+            return self.musicos_ins
+        else:
+            self.musicos_ins=[]
+            self.Orgarnizar_Grupo()
+            return self.musicos_ins
             
 class Instrumento():
     def Dibujar_indtru(self):

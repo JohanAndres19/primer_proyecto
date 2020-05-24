@@ -1,0 +1,40 @@
+.body{
+    background-color: teal;
+
+}
+.contenedor{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.contenedor img{
+    width: 153px;
+    height: 160px;
+    border-style: solid;
+}
+h5{
+    text-align: center;
+    transform: translateX(1%);
+    font-family: fantasy;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5%;
+    transform: translateY(-40%);
+    margin-top: 50px;
+}
+.button input{
+   font-family: fantasy;
+    margin-left: -60px;
+    margin-right: 80px;
+    transform: translateX(55px);
+    width: 100px;
+    height: 50px;
+    background-color: cyan;
+    border-radius: 35px;
+}
