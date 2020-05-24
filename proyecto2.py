@@ -6,7 +6,7 @@ class Grupo_musical():
     def Orgarnizar_Grupo(self):
         num_musicos = random.randint(5,10) 
         Instrumentos= [bateria(),guitarra(),piano(),saxofon(),violin()]
-        for i in range (1,num_musicos):
+        for i in range (0,num_musicos):
             tipo_instru = random.randint(0,4)
             instru = Instrumentos[tipo_instru]  
             self.musicos_ins.append(instru) 

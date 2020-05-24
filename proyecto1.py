@@ -4,6 +4,8 @@ class Serenata ():
   def __init__(self):
     self.grupo = Grupo_musical()
     self.lista=[]
+    self.Grupo_generado=False
+    self.Instrumentos_preparados=False
  
   def Armar_Grupo(self):
     if len(self.lista)== 0:      
