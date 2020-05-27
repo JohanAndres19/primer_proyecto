@@ -31,7 +31,7 @@ _Nota: Al instalar algunas versiones de python pueda que no venga con pip (paque
      
 ![image020](imagenes/image020.gif)
 
-_Nota: Necesitaremos instalar Flask para conectar el frontend con el backend y necsitaremos descargar la libreria numpy para poder generar numeros aleatorios ._
+_Nota: Necesitaremos instalar Flask para conectar el frontend con el backend y  descargar la libreria numpy para poder generar numeros aleatorios ._
 
 **Instalar Flask:**
 En la terminal de windows ejecutamos el siguiente comando:
@@ -63,7 +63,8 @@ Este principio lo podemos ver ya que por el uso de interfaz para poder heredar l
 ![image003](imagenes/image003.png)
 
 #### Principio de responsabilidad única:
-Este principio lo podemos evidenciar en todo código. Pero aqui ejemplif
+Este principio lo podemos evidenciar en la clase Serenata, que se encarga unicmante de iniciar la serenata con la lista ya retornada de las otras clases con los musicos y los instrumentos asignados.
+
 ![image004](imagenes/image005.png)
 
 #### Principio de sustitución de liskov:
