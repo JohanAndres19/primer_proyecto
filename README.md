@@ -68,6 +68,6 @@ En la terminal de windows ejecutamos el siguiente comando:
 **Instalar numpy:**
 Para instalar la libreria numpy,en la terminal de windows ejecutamos el siguiente comando:
 
-            pip install Flask
+            pip install numpy
             
    ![image024](imagenes/image024.gif)
