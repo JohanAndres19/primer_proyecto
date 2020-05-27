@@ -74,4 +74,24 @@ En este principio podemos evidenciar que las clases bateria,piano,saxofon,guitar
 
 ![image010](imagenes/image010.gif)
 
+### Manual de usuario:
+La página tiene 3 botones:
+* **Generar grupo.**
+* **Preparar.**
+* **Tocar.**
 
+![image026](imagenes/image026.jpg)
+
+EL boton Generar grupo, Me generea aleatoriamente de 5 a 10 musicos y les asgina aleatoriamente uno de los 5 instrumentos posibles (bateria, piano, saxofon, guitarra, violin) y me los muestra en pantalla.
+
+![image028](imagenes/image028.jpg)
+
+EL boton Preparar, Me genera un texto en pantalla que indica que los instrumentos generados con la instruccion "Generar grupo" ya han sido preparados.
+
+![image030](imagenes/image030.jpg)
+
+EL boton tocar, Me genera un texto en pantalla que indica que los instrumentos preparados con la instruccion "Preparar" están siendo tocados.
+
+![image032](imagenes/image032.jpg)
+
+_Nota: Si la instruccion "Generar grupo" no se ha realizado, el boton "preparar" no hara nada, y a su vez si la instruccion "preparar" no se ha realizado el botón tocar no hara nada._
