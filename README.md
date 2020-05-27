@@ -1,30 +1,5 @@
 # PRIMER PROYECTO: SERENATA
 ## Autores: Luis Guillermo Velez - Johan Aguirre Diaz
-### Situación problema:
-Se quiere dar una serenata con un grupo integrado  con una cantidad de  músicos que varía entre los 5 a 10 integrantes y cada uno de ellos se le debe asignar un instrumento  de manera aleatoria.
-
-### Analisis del problema:
-
-![image002](imagenes/image002.gif)
-
-Para esta situación los instrumentos que hemos escogido son los que ven en la imagen estos implementan  la interface la cual tiene los métodos Dibujar instru, tocar y Preparar Instrumento esto se sobre escriben en cada una de las clases de los instrumentos. 
-
-### Principios utilizados:
-##### Principio abierto/cerrado:
-Este principio lo podemos ver ya que por el uso de interfaz para poder heredar los métodos  y poder sobre escribirlo en la clase del instrumento que se ponga. De esta forma podemos ver que se puede extender la cantidad de instrumentos sin tener que modificar el resto del código.
-
-![image003](imagenes/image003.png)
-
-#### Principio de responsabilidad única:
-
-![image004](imagenes/image005.png)
-
-#### Principio de sustitución de liskov:
-En este principio podemos evidenciar que las clases bateria,piano,saxofon,guitarra y violin heredan y utilizan todos los métodos de la clase instrumento, y no sobra ningún método.
-
-![image008](imagenes/image008.gif)
-
-![image010](imagenes/image010.gif)
 
 ### Requerimientos
 * **Tener instalado python 3.**
@@ -71,3 +46,31 @@ Para instalar la libreria numpy,en la terminal de windows ejecutamos el siguient
             pip install numpy
             
    ![image024](imagenes/image024.gif)
+   
+### Situación problema:
+Se quiere dar una serenata con un grupo integrado  con una cantidad de  músicos que varía entre los 5 a 10 integrantes y cada uno de ellos se le debe asignar un instrumento  de manera aleatoria.
+
+### Analisis del problema:
+
+![image002](imagenes/image002.gif)
+
+Para esta situación los instrumentos que hemos escogido son los que ven en la imagen estos implementan  la interface la cual tiene los métodos Dibujar instru, tocar y Preparar Instrumento esto se sobre escriben en cada una de las clases de los instrumentos. 
+
+### Principios utilizados:
+##### Principio abierto/cerrado:
+Este principio lo podemos ver ya que por el uso de interfaz para poder heredar los métodos  y poder sobre escribirlo en la clase del instrumento que se ponga. De esta forma podemos ver que se puede extender la cantidad de instrumentos sin tener que modificar el resto del código.
+
+![image003](imagenes/image003.png)
+
+#### Principio de responsabilidad única:
+Este principio lo podemos evidenciar en todo código. Pero aqui ejemplif
+![image004](imagenes/image005.png)
+
+#### Principio de sustitución de liskov:
+En este principio podemos evidenciar que las clases bateria,piano,saxofon,guitarra y violin heredan y utilizan todos los métodos de la clase instrumento, y no sobra ningún método.
+
+![image008](imagenes/image008.gif)
+
+![image010](imagenes/image010.gif)
+
+
