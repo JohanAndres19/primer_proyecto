@@ -35,6 +35,7 @@ _Nota: si no se tiene instalado puede seguir el siguiente intructivo._
 1. Descargamos el instalador de python en [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
 ![image012](imagenes/image012.gif)
+
 2. Ejecutar el instalador e instalar python:
 
 ![image014](imagenes/image014.gif)
@@ -49,7 +50,7 @@ _Nota: Al instalar algunas versiones de python pueda que no venga con pip (paque
 ![image016](imagenes/image016.gif)
 2. En la terminal de windows y en la ruta donde tengamos el archivo anteriormente descargado ejecutamos el siguiente comando
 
-     python get-pip.py
+       python get-pip.py
      
 ![image020](imagenes/image020.gif)
 
@@ -60,11 +61,11 @@ En la terminal de windows ejecutamos el siguiente comando:
 
             pip install Flask
             
-            ![image022](imagenes/image022.gif)
+  ![image022](imagenes/image022.gif)
             
 **Instalar numpy:**
 Para instalar la libreria numpy,en la terminal de windows ejecutamos el siguiente comando:
 
             pip install Flask
             
-            ![image024](imagenes/image024.gif)
+   ![image024](imagenes/image024.gif)
