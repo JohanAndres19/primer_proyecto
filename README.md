@@ -4,7 +4,9 @@
 Se quiere dar una serenata con un grupo integrado  con una cantidad de  músicos que varía entre los 5 a 10 integrantes y cada uno de ellos se le debe asignar un instrumento  de manera aleatoria
 
 ### Analisis del problema:
+
 ![image002](imagenes/image002.gif)
+
 Para esta situación los instrumentos que hemos escogido son los que ven en la imagen estos implementan  la interface la cual tiene los métodos Dibujar instru, tocar y Preparar Instrumento esto se sobre escriben en cada una de las clases de los instrumentos. 
 
 ### Principios utilizados:
