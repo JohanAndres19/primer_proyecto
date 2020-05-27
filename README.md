@@ -1,7 +1,7 @@
 # PRIMER PROYECTO: SERENATA
 ## Autores: Luis Guillermo Velez - Johan Aguirre Diaz
 ### Situación problema:
-Se quiere dar una serenata con un grupo integrado  con una cantidad de  músicos que varía entre los 5 a 10 integrantes y cada uno de ellos se le debe asignar un instrumento  de manera aleatoria
+Se quiere dar una serenata con un grupo integrado  con una cantidad de  músicos que varía entre los 5 a 10 integrantes y cada uno de ellos se le debe asignar un instrumento  de manera aleatoria.
 
 ### Analisis del problema:
 
