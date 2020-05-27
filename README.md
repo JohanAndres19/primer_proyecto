@@ -6,9 +6,11 @@ Se quiere dar una serenata con un grupo integrado  con una cantidad de  músicos
 ### Analisis del problema:
 ![image002](imagenes/image002.gif)
 Para esta situación los instrumentos que hemos escogido son los que ven en la imagen estos implementan  la interface la cual tiene los métodos Dibujar instru, tocar y Preparar Instrumento esto se sobre escriben en cada una de las clases de los instrumentos. 
+
 ### Principios utilizados:
 ##### Principio abierto/cerrado:
 Este principio lo podemos ver ya que por el uso de interfaz para poder heredar los métodos  y poder sobre escribirlo en la clase del instrumento que se ponga. De esta forma podemos ver que se puede extender la cantidad de instrumentos sin tener que modificar el resto del código.
+
 ![image003](imagenes/image003.png)
 #### Principio de responsabilidad única:
 ![image004](imagenes/image005.png)
